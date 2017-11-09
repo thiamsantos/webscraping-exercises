@@ -19,6 +19,7 @@
   "homepage": "https://github.com/thiamsantos/webscraping-exercises#readme",
   "dependencies": {
     "lodash": "^4.17.4",
+    "node-fetch": "^1.7.3",
     "puppeteer": "^0.12.0"
   }
 }
