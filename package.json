@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/thiamsantos/webscraping-exercises#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "lodash": "^4.17.4",
+    "make-promises-safe": "^1.1.0",
     "node-fetch": "^1.7.3",
+    "p-map": "^1.2.0",
     "puppeteer": "^0.12.0"
   }
 }
