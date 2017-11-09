@@ -4,7 +4,7 @@ const _ = require('lodash')
 // Number of datasets currently listed on data.gov
 async function main() {
   try {
-    const browser = await puppeteer.launch({headless: false})
+    const browser = await puppeteer.launch()
     const page = await browser.newPage()
     await page.goto('https://catalog.data.gov/dataset')
     const content = await page.evaluate(async () => {
